@@ -25,3 +25,9 @@ if let domainUrl = Bundle.main.object(forInfoDictionaryKey: "API_BASE_URL") as? 
     print("현재 연결된 서버 도메인: \(domainUrl)")
     // 네트워킹 코드에 이 domainUrl을 사용하세요.
 }
+
+
+* Beyond Compare 초기화
+  1. cd Library/Application\ Sypport/Beyond\ Compare/ 5
+  2. rm -f registry.dat 초기화
+  3. Beyond Compare 다시 사용 ㅋㅋ
